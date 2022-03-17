@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mailgun.js": "^5.0.2"
+    "mailgun-js": "^0.22.0",
+    "nodemon": "^2.0.15"
   }
 }
